@@ -41,4 +41,4 @@ packages - directory containing one or more modules.
 
 Module specifications are conventions and standards used to create packages.
 
-![alt text](https://github.com/Ekanshthegreat/main/1.png?raw=true)
+![alt text](https://github.com/Ekanshthegreat/IBMCourse/raw/master/1.png?raw=true)
