@@ -1,5 +1,9 @@
 Next js follow SSR while Reactjs is CSR
 
+manages server, database and application logic
+
+
+
 Less users or interactivity, static websites -> SSR because whole document has to rebuild by server and then sent back.
 
 
@@ -16,3 +20,25 @@ for an application to run.
 The runtime is the infrastructure that supports the execution of a codebase.
 It is the hardware and software environment in which an application gets executed.
 Node.js is an example of a backend runtime environment.
+
+Load refers to the number of concurrent users, the number of transactions, and the amount
+of data transferred back and forth between the clients and servers.
+Web applications should be scalable.
+Scalability is the application’s ability to dynamically handle the load as it grows or shrinks
+without it affecting the application’s performance.
+
+
+node.js Event-Driven, Asynchronous, Non-Blocking, Single-Threaded:
+
+
+While Node.js provides packages to create a server, the Express framework simplifies the process of creating APIs and endpoints. An API endpoint is a specific point of entry for a request from the client to the server.
+
+Modules - encapsulated js code -> serves a single purpose
+
+calling a module -> import() or require() depending on specification
+
+packages - directory containing one or more modules.
+
+Module specifications are conventions and standards used to create packages.
+
+![alt text](https://github.com/Ekanshthegreat/main/1.png?raw=true)
