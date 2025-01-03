@@ -41,4 +41,30 @@ packages - directory containing one or more modules.
 
 Module specifications are conventions and standards used to create packages.
 
-![alt text](https://github.com/Ekanshthegreat/IBMCourse/raw/master/1.png?raw=true)
+![Screenshot](https://github.com/Ekanshthegreat/IBMCourse/raw/main/1.png)
+
+asynchronous (import) runs faster
+
+require() with commonjs
+```bash
+module.exports = 'hello programmers';
+
+
+
+let msg = require('./message.js');
+``` 
+
+Using ES module
+
+```bash
+const a = 1;
+export {a as "myvalue"};
+
+import {myvalue} from module.mjs;
+```
+
+When the user selects an option in the web page, it triggers business logic written as
+a JavaScript application.
+The JavaScript application sends a web service request using JavaScript Object Notation (JSON)
+over hypertext transfer protocol (HTTP).
+On the server, a Representational State Transfer (REST) web service intercepts the call.
