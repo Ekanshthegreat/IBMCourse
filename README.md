@@ -68,3 +68,17 @@ a JavaScript application.
 The JavaScript application sends a web service request using JavaScript Object Notation (JSON)
 over hypertext transfer protocol (HTTP).
 On the server, a Representational State Transfer (REST) web service intercepts the call.
+
+
+```bash
+let server = http.createServer(function(request, response){
+    let body = "Hello world";
+    reponse.writeHead(200,{
+        'Content-Length':body.length
+
+        'Content-Type':'text/plain'
+    });
+    response.end(body);
+})
+server.listen(8080);
+```
