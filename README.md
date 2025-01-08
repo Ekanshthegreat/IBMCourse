@@ -82,3 +82,10 @@ let server = http.createServer(function(request, response){
 })
 server.listen(8080);
 ```
+
+	HTTP is just a way for clients (like browsers) and servers to talk.
+	•	Node.js lets you write JavaScript that acts as a server.
+	•	The http module’s createServer method sets up a server that “listens” for requests.
+	•	In the callback, you decide how to respond.
+	•	response.writeHead sets status codes and headers, and response.end sends the final data.
+	•	By default, you pick a port (like 8080), which your computer uses to identify which program should receive the incoming data.
